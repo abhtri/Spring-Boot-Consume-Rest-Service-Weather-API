@@ -1,0 +1,16 @@
+    <html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org" 
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<script src="/scripts/jquery-3.2.1.min.js"></script>
+<script src="/scripts/myjs.js"></script>
+</head>
+<body>
+hello ...
+ <p th:text = "'Hello, ' + ${name} + '!'" />
+ <p>
+ <input type="text" id="search"></input>
+ 
+ <button type="button" id="mybutton">weather!</button></p>
+</body></html>
