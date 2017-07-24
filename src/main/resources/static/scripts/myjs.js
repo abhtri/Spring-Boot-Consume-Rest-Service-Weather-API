@@ -10,7 +10,9 @@ $(document).ready(function(){
 	 	 },
 	 	success:
 	 		function(result){
-	 		alert(result -273);
+	 		var temp = result-273;
+	 		//alert(result -273);
+	 		$("#show").html("The Current Temp at " + val.toUpperCase() +"is " + temp.toFixed(2) + "deg Celcius");
 	 	}
 	 });
 	  

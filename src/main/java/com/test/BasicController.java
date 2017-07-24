@@ -14,7 +14,7 @@ public class BasicController {
 	@RequestMapping("/")
 	public String Hello( Model model) {
 	//	 ModelAndView model = new ModelAndView();
-		model.addAttribute("name", "Abhishek");
+		model.addAttribute("name", "User");
 			return "index";
 	}
 }
